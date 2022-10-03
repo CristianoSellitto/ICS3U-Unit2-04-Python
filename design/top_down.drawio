@@ -15,11 +15,11 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;" parent="1" source="2" target="6" edge="1">
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="400" y="240"/>
-                            <mxPoint x="600" y="240"/>
+                            <mxPoint x="800" y="240"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -27,6 +27,9 @@
                     <mxGeometry x="320" y="120" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="4" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="22">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
@@ -42,30 +45,27 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Output" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="280" width="160" height="80" as="geometry"/>
+                    <mxGeometry x="720" y="280" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Set the diameter of the pizza" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="120" y="400" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="22">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="13" value="Set the the subtotal as the labour cost added to the shop rent added to the materials times the diameter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="320" y="400" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="17" edge="1">
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6" edge="1" target="21">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="600" y="520" as="targetPoint"/>
+                        <mxPoint x="800" y="520" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="17" value="Show the total cost of the pizza" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="400" width="160" height="80" as="geometry"/>
+                    <mxGeometry x="720" y="400" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="Show the program as done" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="520" width="160" height="80" as="geometry"/>
+                    <mxGeometry x="920" y="400" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="Set the total as the subtotal added to the subtotal times the HST&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="320" y="520" width="160" height="80" as="geometry"/>
+                <mxCell id="22" value="Set the total as the subtotal added to the subtotal times the HST&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="400" width="160" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
